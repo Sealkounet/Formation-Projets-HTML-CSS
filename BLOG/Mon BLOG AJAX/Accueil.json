@@ -1,0 +1,21 @@
+[
+    {
+        "titre" : "Article 1",
+        "article" : "<img src=\"Image/Corne_du_diable.jpg\" alt=\"Corne du diable\" width=\"115\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean turpis libero, auctor et odio non, mollis tempor erat.ellentesque ornare diam nibh, eu pellentesque metus gravida id. Suspendisse eu sapien tempus, congue eros id, auctor ligula.Cras volutpat, sem sit amet luctus molestie, metus neque consequat lectus, a condimentum velit nisi ut risus. Ut sed tempus libero. Donec ut pretium nunc. Maecenas ut placerat lectus. Ut gravida consectetur neque, in laoreet ipsum interdum vel. Nam semper vitae urna non fermentum. Pellentesque lobortis arcu at justo tincidunt blandit. Pellentesque condimentum enim vitae velit sodales eleifend. Vivamus sollicitudin viverra diam, quis fringilla risus pulvinar non. Donec ut pretium nunc. Maecenas ut placerat lectus. Ut gravida consectetur neque, in laoreet ipsum interdum vel. Nam semper vitae urna non fermentum. Pellentesque lobortis arcu at justo tincidunt blandit. Pellentesque condimentum enim vitae velit sodales eleifend. Vivamus sollicitudin viverra diam, quis fringilla risus pulvinar non.Pellentesque lobortis arcu at justo tincidunt blandit. Pellentesque condimentum enim vitae velit sodales eleifend.Pellentesque lobortis arcu at justo tincidunt blandit. Pellentesque condimentum enim vitae velit sodales eleifend.Pellentesque lobortis arcu at justo tincidunt blandit. Pellentesque condimentum enim vitae velit sodales eleifend.Pellentesque lobortis arcu.", 
+        "parution" : "Paru le 05/10/18",
+        "Auteur" : "Par Toto"
+        
+    },
+    {
+        "titre" : "Article 2",
+        "article" : "<img src=\"Image/Guitare.png\" alt=\"batterie\" width=\"150\">Aliquam semper tristique leo eu ultricies. Ut at eros in nisl aliquet porttitor. Nulla pulvinar ligula a pulvinar aliquam. Suspendisse scelerisque convallis dui at sagittis. Nulla malesuada mi ac turpis viverra suscipit. Mauris commodo dui a nisi dapibus tempor. Suspendisse metus nibh, varius cursus egestas id, ultricies ac purus. Cras gravida porta diam non hendrerit. Nullam sagittis, risus sit amet tempus euismod, enim enim convallis mi, at pellentesque ex eros nec ligula. In hendrerit ex nec lorem accumsan feugiat sed volutpat enim. Phasellus eu lectus tincidunt enim pretium placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "parution" : "Paru le 15/12/18",
+        "Auteur" : "Par Titi"
+    },
+    {
+        "titre" : "Article 3",
+        "article" : "<img src=\"Image/download.jfif\" alt=\"\" width=\"100\">Vestibulum sed augue at quam tincidunt lacinia id a nulla. Morbi suscipit pharetra massa in mattis.Cras vehicula molestie tellus, vel lacinia ex egestas et. Maecenas congue nisi sed nulla finibus feugiat. Ut sollicitudin velit sit amet commodo efficitur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum non arcu eget eros mollis egestas non volutpat lorem. Aenean vehicula condimentum quam, non porttitor nibh. Donec tincidunt massa magna, eu consequat sapien auctor id. Curabitur sed massa posuere, viverra orci vitae, dictum massa. Nunc semper aliquet nisl varius eleifend. Praesent aliquet viverra sodales. Quisque eu ipsum augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean velit leo, consequat nec magna sed, convallis dignissim ipsum. Nulla eu scelerisque ligula.",
+        "parution" : "Paru le 30/02/19",
+        "Auteur" : "Par Toto"
+    }
+]

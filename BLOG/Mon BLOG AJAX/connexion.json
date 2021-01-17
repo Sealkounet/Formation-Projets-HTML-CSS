@@ -1,0 +1,12 @@
+[
+    {
+        "login" : "<label for=\"login\">Identifiant : </label>",
+        "inputLogin" : "<input type=\"text\" class=\"form-control\" id=\"login\" placeholder=\"Entrer votre identidiant\" name=\"login\" required>",
+        "errorLogin" : "<p id=\"errorLogin\"></p>"
+    },
+    {
+      "password" : "<label for=\"pwd\">Mot de passe :</label>",
+      "inputPassword" : "<input type=\"password\" class=\"form-control\" id=\"pwd\" placeholder=\"Enter votre mot de passe\" name=\"pswd\" required>",
+      "errorPassword" : "<p id=\"errorPwd\" ></p>"
+    }
+]

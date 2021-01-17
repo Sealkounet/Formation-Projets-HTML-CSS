@@ -1,0 +1,69 @@
+header{
+	background-color: rgba(74,74,74);
+	width:65%;
+	height:130px;
+	display:flex;
+	margin:auto;
+}
+header>img{
+	display:flex;
+	margin-top:15px;
+	margin-left:30px;
+}
+#logo :first-child{
+	list-style-image: url("images/adress.png");
+}
+#logo :nth-child(2){
+	list-style-image: url("images/tel.png");
+}
+#logo :nth-child(3){
+	list-style-image: url("images/mail.png");
+}
+h1{
+	color:white;
+	margin:auto;
+	font-size:50px;
+}
+main{
+	display:flex;
+	width:65%;
+	margin:auto;
+}
+.gauche{
+	background-color: rgba(244,210,131);
+	padding-left:30px;
+	padding-top:25px;
+}
+.droite{
+	padding-top:20px;
+	padding-right:35px;
+	padding-left:50px;
+	padding-bottom:20px;
+}
+#reussites, #qualif{
+	padding-right:20px;
+}
+.date{
+	margin-bottom:-18px;
+}
+#date{
+	margin-top:-20px;
+}
+#formation>p{
+	margin-top:-15px;
+}
+#recompenses>p{
+	margin-top:-15px;
+}
+.gauche>hr{
+	color:white;
+}
+#exp>h2{
+	margin-bottom:-5px;
+}
+h2{
+	font-size:20px;
+}
+ul:not(#logo){
+	margin-left:-20px;
+}

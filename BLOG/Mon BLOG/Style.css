@@ -1,0 +1,95 @@
+/*Général*/
+*{
+	background-color: black;
+	color: white;
+}
+nav{
+	text-align:right;
+	font-size:18px;
+}
+a.nav{
+	text-decoration:none;
+}
+a.nav:hover{
+	color: blue;
+}
+a:visited{
+	color: red;
+}
+a:link{
+	color:#B2D732;
+}
+h1{
+	color: #D74437;
+	text-align:center;
+	font-family: 'Manslava', cursive;
+}
+h2{
+	color: yellow;
+}
+#banniere{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Page acceuil*/
+#article1>img{
+	vertical-align:middle;
+	float:left;
+}
+#article1{
+
+	margin-bottom:50px;
+	display:inline-block;
+}
+#article2>img{
+	vertical-align:middle;
+	float:right;
+}
+#article2{
+	margin-bottom:50px;
+	display:inline-block;
+	margin-left: 10px;
+	border-left: 3px dashed yellow;
+	padding-left:10px;
+}
+
+#article3>img{
+	vertical-align:middle;
+	float:left;
+}
+#article3{
+	margin-bottom:50px;
+	display:inline-block;
+} 
+div{
+
+	display:flex;
+	flex-grow: 1;
+}
+
+/*Page programmation*/
+table{
+	margin:auto;
+}
+#legend1{
+	margin:auto;
+	display: block;
+	color:#d8cf14;
+}
+#fieldset1{
+	margin:auto;
+	max-width:600px;
+	padding: 16px;
+}
+th{
+	color:#fe7b08;
+	padding:30px;
+	font-size: 25px;
+}
+td{
+	padding-left: 45px;
+	padding-right:50px;
+}
+

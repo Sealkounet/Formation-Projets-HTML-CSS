@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Contacts</title>
+		<link rel="icon" type="image/png" sizes="32x32" href="Image/Download.png">
+		<link rel="stylesheet" href="Style.css">
+	</head>
+	<body>
+		<main>
+		<img src="Image/Download.png" alt="Banniere" width="1000px" height="400px" id="banniere" />
+				<nav>
+					<a href="Acceuil.html" class="nav">Acceuil</a> |
+					<a href="Presentation.html" class="nav">Présentation</a> |
+					<a href="Contacts.html" class="nav">Contacts</a>
+
+				</nav>
+				<hr>
+			<header>
+				<h1>Nous contacter</h1>
+			</header>
+			
+				<section>
+					<h2>Formulaire de contact</h2>
+						<form method="post" action="formulaire.php" enctype="" name="contact">
+							<fieldset>
+								<legend>Civilité</legend>
+									<input type="radio" name="Civilite" value="Madame">Madame<br>
+									<input type="radio" name="Civilite" value="Mademoiselle">Mademoiselle<br>
+									<input type="radio" name="Civilite" value="Monsieur" checked>Monsieur<br>
+							</fieldset>
+							<br>
+							<p>
+								<label for="Nom">Votre nom* :</label>
+								<input type="text" id="Nom" name="nom" required placeholder="Dupont">
+							</p>
+							<p>
+								<label for="prenom">Votre prénom* :</label>
+								<input type="text" id="prenom" name="prenom"  required placeholder="Henry">
+							</p>
+							<p>
+								<label for="birth">Date de naissance*:</label>
+								<input type="date" id="birth" name="birth" required>
+							</p>
+							<p>
+								<label for="mail">Votre adresse mail*:</label>
+								<input type="email" id="mail" name="mail" required placeholder="Henry.dupont@gmail.com" size="25">
+							</p>
+							<p>
+								<label for="adress">Votre adresse :</label><br>
+								<textarea id="adress" name="adress" rows="10" cols="50" placeholder="9 rue Marc Seguin, 94000 CRETEIL"></textarea>
+							</p>
+							
+							<p>
+								<label for="sujet">Votre sujet* :</label>
+									<select id="sujet" name="sujet" required>
+										<option value="Documents">Envoyer un document</option>
+										<option value="Remboursement">Remboursement</option>
+										<option value="Offres d'emploi">Commandes</option>
+										<option value="Autres question">Autres questions</option>
+									</select>
+							</p>
+							<p>
+								<label for="mess">Votre message* :</label><br>
+								<textarea id="mess" rows="5" cols="70" name="mess" required></textarea>						
+							</p>
+							<p>
+								<label for="file">Ajouter une pièce jointe :</label><br>
+								<input type="file" id="fichier" name="fichier">
+							</p>
+							<p>
+								<input type="submit" name="Envoyer">
+								<input type="reset" name="reset">
+							</p>
+									
+				<section>
+					<h2>Adresse</h2>
+						<address>
+							<p>AFPA Créteil</p>
+							<p>9 Rue Marc Seguin</p>
+							<p>94000 CRETEIL</p>
+						</address>
+				</section>
+				
+				<hr>
+			<footer>
+				<a href="" class="nav">Mentions légales</a> Copyright &copy;2019	
+			</footer>
+		</main>
+	<body>
+</html>

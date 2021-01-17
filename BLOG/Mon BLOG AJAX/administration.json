@@ -1,0 +1,24 @@
+[
+    
+    {
+        "titre" : "Article 1",
+        "image" : "Image/Corne_du_diable.jpg",
+        "article" : "Lorem ipsum dolor sit amet[...]lobortis arcu.", 
+        "parution" : "Paru le 05/10/18",
+        "Auteur" : "Par Toto"
+    },
+    {
+        "titre" : "Article 2",
+        "image" : "Image/Guitare.png",
+        "article" : "Aliquam semper [...] consectetur adipiscing elit.",
+        "parution" : "Paru le 15/12/18",
+        "Auteur" : "Par Titi"
+    },
+    {
+        "titre" : "Article 3",
+        "image" : "Image/download.jfif",
+        "article" : "Vestibulum sed augue [...] scelerisque ligula.",
+        "parution" : "Paru le 30/02/19",
+        "Auteur" : "Par Toto"
+    }
+]

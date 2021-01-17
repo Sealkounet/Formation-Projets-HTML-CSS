@@ -1,0 +1,117 @@
+/*Barre de navigation haute*/
+nav{
+    margin-top:3%;
+    padding:auto;
+    margin-left:5%;
+    margin-bottom:3%;
+}
+nav>ul>li{
+    margin:auto;
+}
+.text-img{
+    margin:auto;
+    padding-top:100px;
+}
+.choix{
+    border:1px dashed black;
+    margin-top:40px;
+    padding-top:30px;
+}
+#recherche{
+    background-color: rgba(251,139,155);
+    height:50px;
+    padding-right:50px;
+}
+i{
+    color: rgba(251,139,155);
+}
+.article>p{
+    margin-top:20px;
+}
+main{
+    margin-right:8%;
+    margin-left:8%;
+}
+.icon{
+    margin-bottom:30px;
+    margin-top:40px;
+}
+.police{
+    font-family: 'Candal', sans-serif;
+
+}
+/*Footer*/
+footer>nav>ul{
+    margin-left:20px;
+    margin-right:20px;
+    font-weight:bold;
+    padding-top:5%;
+}
+footer{
+    background-color: rgba(33,62,78);
+    height:100%;
+    color:white;
+}
+.foot>p{
+    width:70%;
+    margin-left:15%;
+}
+.choix1>p{
+    padding-top:50px;
+}
+ul{
+    list-style-type: circle;
+}
+.article1{
+    border:1px dashed black;
+    width:100%;
+    height:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.contact{
+    margin-top:80px;
+}
+.article_contact>h3{
+    border-bottom: 1px dashed rgba(251,139,155);
+}
+.article_contact>p{
+    padding-top:20px;
+}
+#contact{
+    padding-top:20px;
+}
+#maps{
+    margin-top:50px;
+}
+.article>h3{
+    text-align:center;
+    color:rgba(251,139,155);
+}
+.article>.btn{
+    width:100%;
+}
+a{
+    color:black;
+}
+.article>button>a{
+    color: rgba(251,139,155);
+}
+a:hover{
+    text-decoration:none;
+    color: rgba(251,139,155);
+}
+a:hover>i{
+    color: black;
+}
+.navfoot>li>a{
+    color:white;  
+}
+.navfoot>li{
+    margin-bottom:15px;
+}
+.center{
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:15px;
+}

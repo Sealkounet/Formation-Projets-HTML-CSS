@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="32x32" href="Image/Download.png">
+    
+    <link rel="stylesheet" href="Style.css">
+    <title>Administration</title>
+</head>
+<body>
+    <main>
+        
+        <img src="Image/Download.png" alt="Banniere" width="1000px" height="400px" id="banniere" />
+        <nav class="navbar">
+            <a href ="monBlog.html" id ="accueil" class="nav ">Acceuil</a> |
+            <a href ="monBlog.html" id="connexion" class="nav">Déconnexion</a>
+        </nav>
+    
+        <hr>
+        <header>
+            <h1>Mon Blog</h1>
+        </header>
+        <br>
+        <h2>Page d'administration</h2>
+    <form class='container2'>
+            <div class="form-group float-left">
+              <label for="titre">Titre de l'article </label><br>
+              <input type="text" class="form-control" id="titre" placeholder="Enter le nom de l'article'">
+                
+              <label for="image">Vignette de l'article </label><br>
+              <input type="file" class="form-control" id="image">
+            
+            <label for="parution">Date de parution </label><br>
+            <input type="date" class="form-control" id="parution" placeholder="Enter la date de parution de l'article">
+    
+            <label for="auteur">Auteur de l'article </label><br>
+            <input type="text" class="form-control" id="auteur" placeholder="Enter le nom de l'auteur de l'article">
+            
+            <label for="auteur">Auteur de l'article </label><br>
+            <input type="text" class="form-control" id="auteur" placeholder="Enter le nom de l'auteur de l'article">
+            
+            <button type="Submit" class=" btn btn-primary">Ajouter au tableau</button>
+            </div>
+            <div class="form-group1  float-right">
+                <label for="contenu">Contenu de l'article   </label><br>
+                <textarea name="contenu" id="contenu" rows="10" cols="50" class="form-control1"></textarea>
+            </div>
+            
+          </form>
+        <section id="contenu2">
+
+        </section>
+
+        <hr>
+			<footer>
+				<a href="" class="nav">Mentions légales</a> Copyright &copy;2019	
+			</footer>
+    </main>
+    <script src="administration.js"></script>
+</body>
+</html>

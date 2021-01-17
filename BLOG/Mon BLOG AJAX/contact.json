@@ -1,0 +1,55 @@
+[
+    {
+        "madame" : "<fieldset><legend>Civilité</legend><input type=\"radio\" name=\"Civilite\" value=\"Madame\">Madame<br>",
+        "mamdemoiselle" : "<input type=\"radio\" name=\"Civilite\" value=\"Mademoiselle\">Mademoiselle<br>",
+        "monsieur" : "<input type=\"radio\" name=\"Civilite\" value=\"Monsieur\" checked>Monsieur</fieldset><br>"
+        
+    },
+    {
+        "nom" : "<label for=\"Nom\">Votre nom* :</label>",
+        "inputNom" : "<input type=\"text\" id=\"Nom\" name=\"nom\" required placeholder=\"Dupont\">",
+        "vide" : "<br>"
+    },
+    {
+        "prenom" : "<label for=\"prenom\">Votre prénom* :</label>",
+        "inputPrenom" : "<input type=\"text\" id=\"prenom\" name=\"prenom\"  required placeholder=\"Henry\">",
+        "vide" : "<br>"
+    },
+    {
+        "birth" : "<label for=\"birth\">Date de naissance*:</label>",
+        "inputBirth" : 	"<input type=\"date\" id=\birth\" name=\"birth\" required>",
+        "vide" : "<br>"
+    },
+    {
+        "mail" : "<label for=\"mail\">Votre adresse mail*:</label>",
+        "inputMail" : "<input type=\"email\" id=\"mail\" name=\"mail\" required placeholder=\"Henry.dupont@gmail.com\" size=\"25\">",
+        "vide" : "<br>"
+    },
+    {
+        "adress" : "<label for=\"adress\">Votre adresse :</label><br>",
+        "inputAdress" :	"<textarea id=\"adress\" name=\"adress\" rows=\"10\" cols=\"50\" placeholder=\"9 rue Marc Seguin, 94000 CRETEIL\"></textarea>",
+        "vide" : "<br>"
+    },
+    {
+        "mess" : "<label for=\"mess\">Votre message* :</label><br>",
+        "mess2" : "<textarea id=\"mess\" rows=\"5\" cols=\"70\" name=\"mess\" required></textarea> ",
+        "vide" : "<br>"
+    },
+    {
+        "file" : "<label for=\"file\">Ajouter une pièce jointe :</label><br>",
+        "inputFile" : "<input type=\"file\" id=\"fichier\" name=\"fichier\">",
+        "vide" : "<br>"
+    },
+    {
+        "submit" : "<input type=\"submit\" name=\"Envoyer\">",
+        "reset" : "<input type=\"reset\" name=\"reset\">",
+        "vide" : "<br>"
+    },
+    {
+        "adress" : "<h2>Notre adresse</h2>",
+        "nom" : "<address><p>AFPA Créteil</p>",
+		"adresse" : "<p>9 Rue Marc Seguin</p>",
+        "ville" : "<p>94000 CRETEIL</p></address>",
+        "maps" : "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2628.7985539347533!2d2.431956316004127!3d48.785735979280425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e673449d8b48e3%3A0x83768eac6932ce9f!2s9%20Rue%20Marc%20Seguin%2C%2094000%20Cr%C3%A9teil!5e0!3m2!1sfr!2sfr!4v1573230178090!5m2!1sfr!2sfr' width='600' height='450' frameborder='0' style='border:0; width:100%;'  allowfullscreen=''></iframe>"
+    }
+]    
