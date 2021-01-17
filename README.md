@@ -1,1 +1,1 @@
-# Différents projets créé avec HTML, CSS et Bootstrap
+# Différents projets créés avec HTML, CSS et Bootstrap
